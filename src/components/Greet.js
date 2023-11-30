@@ -8,5 +8,8 @@ import React from 'react'
 //     )
 // }
 
-let Greet = () => <h1>Hello Me</h1>
+let Greet = (props) =>{
+    console.log(props)
+ return <h1>Hello {props.name}</h1>
+} 
 export default Greet
