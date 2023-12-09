@@ -9,4 +9,4 @@ class Welcome extends Component{
         </h1>)
     }
 }
-export default Welcome
+export default Welcome   
