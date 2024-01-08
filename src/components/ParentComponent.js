@@ -1,6 +1,16 @@
 import React, { Component } from 'react'
 
-export class ParentComponent extends Component {
+ class ParentComponent extends Component {
+    constructor(props) {
+      super(props)
+    
+      this.state = {
+         parentName: 'Parent'
+      }
+    }
+    
+
+
   render() {
     return (
       <div>
